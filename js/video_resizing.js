@@ -7,15 +7,10 @@
       resizeTimer = null;
 
   function setIFrameSize() {
-      if (windowWidth < 480) {
+    var parentDivWidth = $myIFRAME.parent().width(),//be aware this will still only get the height of the first element in this set of elements, you'll have to loop over them if you want to support more than one iframe on a page
+        newHeight      = (parentDivWidth / ogRatio);
 
-          var parentDivWidth = $myIFRAME.parent().width(),//be aware this will still only get the height of the first element in this set of elements, you'll have to loop over them if you want to support more than one iframe on a page
-              newHeight      = (parentDivWidth / ogRatio);
-
-          $myIFRAME.addClass("iframe-class-resize").css({ height : newHeight, width : parentDivWidth });
-      } else {
-          $myIFRAME.removeClass("iframe-class-resize").css({ width : '', height : '' });
-      }
+    $myIFRAME.addClass("iframe-class-resize").css({ height : newHeight, width : parentDivWidth });
   }
 
   setIFrameSize();

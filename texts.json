@@ -1,0 +1,16 @@
+{
+  "about_us": "San Francisco Tango Exchange (SFTX) was an annual tango event that ran from 2006 - 2009. SFTX concentrates on using guided exercises and technical games as a platform to a weekend of tango adventures. We aim to create a safe environment for every dance to 'explore, discover, and exchange'. We're working to reboot it.",
+  "team_members": "We hope to see you soon!",
+  "contact_us": "email us at info@sftx.dance",
+  "member_bios": [{
+    "name": "Chi",
+    "sftx-teams": "Venue, Program Planning, Marketing-Website",
+    "tango-challenges": "Surrrendering to the music as a leader and adding embellishements as a follower",
+    "obsessions": "alt tango songs, Stand-up Comedy"
+  }, {
+    "name": "Stephanie",
+    "sftx-teams": "Venue, Program Planning, Marketing",
+    "tango-challenges": "Leading and navigating",
+    "obsessions": "Boba, Plants, the Beach"
+  }]
+}

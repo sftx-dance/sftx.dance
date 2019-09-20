@@ -644,3 +644,86 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+
+#mailchimp #mc_embed_signup {
+  max-width: 600px;
+  margin: 30px auto 0;
+}
+
+#mailchimp #mc_embed_signup_scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#mailchimp #mc_embed_signup_scroll .indicates-required {
+  margin-bottom: 30px;
+}
+
+#mailchimp #mc_embed_signup_scroll .asterisk {
+  color: #fed136;
+}
+
+#mailchimp #mc_embed_signup_scroll .mc-field-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#mailchimp #mc_embed_signup_scroll .mc-field-group label,
+#mailchimp #mc_embed_signup_scroll .mc-field-group input {
+  text-align: center;
+}
+
+#mailchimp #mc_embed_signup_scroll .mc-field-group label {
+  margin: 0 0 7px 0;
+  width: 100%;
+}
+
+#mailchimp #mc_embed_signup_scroll .mc-field-group input {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  line-height: 24px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+#mailchimp #mc_embed_signup_scroll .mc-field-group input:focus {
+  outline: none;
+}
+
+@media (min-width: 400px) {
+  #mailchimp #mc_embed_signup_scroll .mc-field-group {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  #mailchimp #mc_embed_signup_scroll .mc-field-group label,
+  #mailchimp #mc_embed_signup_scroll .mc-field-group input {
+    text-align: left;
+  }
+  #mailchimp #mc_embed_signup_scroll .mc-field-group label {
+    margin: 0 20px 0 0;
+    width: 125px;
+  }
+  #mailchimp #mc_embed_signup_scroll .mc-field-group input {
+    width: auto;
+  }
+}
+
+#mailchimp #mc_embed_signup_scroll .mc-form-submit {
+  margin-top: 30px;
+}

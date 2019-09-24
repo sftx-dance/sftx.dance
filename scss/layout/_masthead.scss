@@ -7,10 +7,11 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  width: 100%;
 
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     
     .intro-lead-in {
       font-size: 22px;
@@ -25,9 +26,9 @@ header.masthead {
       1px 1px 0 #000;
     }
     .intro-heading {
-      font-size: 50px;
+      font-size: 30px;
       font-weight: 700;
-      line-height: 50px;
+      line-height: 1;
       margin-bottom: 25px;
       @include heading-font;
       text-shadow:
@@ -37,9 +38,9 @@ header.masthead {
       1px 1px 0 #000;
     }
   }
-  
 }
-@media(min-width:768px) {
+
+@media(min-width: 992px) {
   header.masthead {
     .intro-text {
       padding-top: 300px;
@@ -59,5 +60,12 @@ header.masthead {
         @include heading-font;
       }
     }
+  }
+}
+
+@media(min-width:550px) {
+  header.masthead .intro-text {
+    padding-top: 200px;
+    padding-bottom: 150px;
   }
 }

@@ -47,7 +47,7 @@
 
     var $teamMemberContainer = $('.team-member-container');
     texts.member_bios.forEach(function(bio){
-      var $bioContainer = $('<div>').addClass('col-sm-4 team-member');
+      var $bioContainer = $('<div>').addClass('col-6 col-md-4 team-member');
       var $elements = [
         $('<img>').addClass('mx-auto rounded-circle').attr({ src: 'img/team/' + bio.name.toLowerCase() + '.jpg' }),
         $('<h4>').html(bio.name),

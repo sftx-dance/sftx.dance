@@ -1,6 +1,7 @@
 // Global styling for this template
 body {
   overflow-x: hidden;
+  width: 100%;
   @include body-font;
 }
 
@@ -14,6 +15,8 @@ a {
     color: darken($primary, 10%);
   }
 }
+
+input { border: 1px solid gray; }
 
 .text-primary {
   color: $primary !important;
@@ -68,4 +71,11 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+@media(max-width:400px) {
+  p {
+    font-size: 14px;
+    line-height: 1.25;
+  }
 }

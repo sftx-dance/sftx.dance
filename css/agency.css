@@ -15,11 +15,11 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #ff0040;
 }
 
 a:hover {
-  color: #fec503;
+  color: #cc0033;
 }
 
 input {
@@ -27,7 +27,7 @@ input {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #ff0040 !important;
 }
 
 h1,
@@ -66,12 +66,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #ff0040;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #ff0040;
   text-shadow: none;
 }
 
@@ -105,13 +105,14 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  border-radius: 0px;
+  background-color: #ff0040;
+  border-color: #ff0040;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #d90036 !important;
+  border-color: #d90036 !important;
   color: white;
 }
 
@@ -138,17 +139,32 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #ff0040;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+#mainNav .large-screen {
+  width: 250px;
+  display: none;
+}
+
+#mainNav .medium-screen {
+  width: 200px;
+  display: none;
+}
+
+#mainNav .small-screen {
+  width: 50px;
+  display: block;
+}
+
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #ff0040;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #cc0033;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -161,34 +177,59 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #ff0040;
+}
+
+@media (min-width: 480px) {
+  #mainNav .medium-screen {
+    display: block;
+  }
+  #mainNav .small-screen {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
+  #mainNav .large-screen {
+    display: block;
+  }
+  #mainNav .medium-screen {
+    display: none;
+  }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.nav-link-highlighted {
+    background-color: #ff0040;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.nav-link-highlighted.active, #mainNav .navbar-nav .nav-item .nav-link.nav-link-highlighted:hover {
+    color: white;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: white;
+    border-bottom: 3px solid #ff0040;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+  #mainNav.navbar-shrink .nav-item .nav-link {
+    color: black;
   }
 }
 
@@ -201,6 +242,7 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   width: 100%;
+  position: relative;
 }
 
 header.masthead .intro-text {
@@ -239,9 +281,10 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 50px;
+    letter-spacing: 1px;
     margin-bottom: 50px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
@@ -279,7 +322,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(255, 0, 64, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -477,7 +520,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #ff0040;
 }
 
 .timeline > li .timeline-image h4 {
@@ -676,7 +719,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #ff0040;
 }
 
 #mailchimp #mc_embed_signup {
@@ -699,7 +742,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #mailchimp #mc_embed_signup_scroll .asterisk {
-  color: #fed136;
+  color: #ff0040;
 }
 
 #mailchimp #mc_embed_signup_scroll .mc-field-group {

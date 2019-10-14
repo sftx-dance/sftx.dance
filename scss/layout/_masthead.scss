@@ -8,11 +8,12 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   width: 100%;
+  position: relative;
 
   .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    
+
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -53,9 +54,10 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 40px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 50px;
+        letter-spacing: 1px;
         margin-bottom: 50px;
         @include heading-font;
       }

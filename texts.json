@@ -4,38 +4,53 @@
   "contact_us": "email us at info@sftangoexchange.com",
   "member_bios": [{
     "name": "Chi",
+    "pronoun": "(he/his)",
     "sftx-teams": "Venue, Program Planning, Marketing-Website",
     "tango-challenges": "Surrrendering to the music as a leader and adding embellishements as a follower",
     "obsessions": "alt tango songs, Stand-up Comedy"
   }, {
     "name": "Stephanie",
+    "pronoun": "(she/her)",
     "sftx-teams": "Venue, Program Planning, Marketing",
     "tango-challenges": "Leading and navigating",
     "obsessions": "Boba, House plants, beach"
   }, {
     "name": "Geoff",
+    "pronoun": "(he/his)",
     "sftx-teams": "Venue, Marketing-Website, Finance",
     "tango-challenges": "Contributing in a productive and positive way to tango community",
     "obsessions": "Drawing"
   }, {
     "name": "Xiaomin",
+    "pronoun": "(she/her)",
     "sftx-teams": "Videographer/Photographer, Art Direction, Secretary",
     "tango-challenges": "Musicality, leading/switching",
     "obsessions": "Tidying up everything (even better than Marie Kondo)"
   }, {
     "name": "Jonas",
+    "pronoun": "(he/his)",
     "sftx-teams": "Venue, DJ/Music Coordination",
     "tango-challenges": "Posture and musicality",
     "obsessions": "Backpacks and geeky gadgets"
   }, {
     "name": "Kyra",
+    "pronoun": "(she/her)",
     "sftx-teams": "Marketing-Rules, Finance",
     "tango-challenges": "Adding to the dialogue of the dance conversation as a follower, developing my leading vocabulary and skills",
     "obsessions": "Designing my future tango wardrobe + baking fancy in-season treats"
   }, {
     "name": "Teresa",
+    "pronoun": "(she/her)",
     "sftx-teams": "Marketing-Rules, Videographer/Photographer",
     "tango-challenges": "Leading, following, and connection both on and off the dance floor",
     "obsessions": "Singing, Travel, and sharing yummy foods"
-  }]
+  }],
+  "what_to_expect":[
+    "Come with an open mind. You’ll expand your comfort zone, both in terms of tango skills and socially. Moments when you say “I don’t know this, can I get starter help?” are great and are much encouraged.",
+    "Help others figure things out. This is an exchange, so kindly offer to explain or demonstrate if you can, especially when asked.",
+    "Peer-to-peer knowledge sharing is encouraged. Ask “are you open to feedback?” “Yes,” “no,” and “some” are all valid replies.",
+    "Role preferences are not based on gender. If someone asks you to dance and does not ask your preference, let them know your preferred role before you start dancing.",
+    "Respect the pronouns of your community members. If someone does not ask for your pronoun and it differs from the pronoun they are using, please let them know.",
+    "Use feedback: participate. This is also your event, constructive feedback is appreciated."
+  ]
 }

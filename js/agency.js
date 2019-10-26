@@ -50,7 +50,7 @@
       var $bioContainer = $('<div>').addClass('col-6 col-md-4 team-member');
       var $elements = [
         $('<img>').addClass('mx-auto rounded-circle').attr({ src: 'img/team/' + bio.name.toLowerCase() + '.jpg' }),
-        $('<h4>').html(bio.name),
+        $('<h4>').html(bio.name + ' ' + bio.pronoun),
         $('<p>').html(bio['sftx-teams']).addClass('text-muted'),
         $('<p>').html('Working on: ' + bio['tango-challenges']),
         $('<p>').html('Secret Obsessions: ' + bio.obsessions)
@@ -58,6 +58,12 @@
       $elements.forEach(function($element){ $bioContainer.append($element); })
       $teamMemberContainer.append($bioContainer);
     });
+
+    var $expectListContainer = $('#expect-list');
+    texts.what_to_expect.forEach(function(item){
+      var $element = $('<li>').html(item);
+      $expectListContainer.append($element);
+    })
   });
 
 })(jQuery); // End of use strict

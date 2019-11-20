@@ -52,14 +52,17 @@
         $('<img>').addClass('mx-auto rounded-circle').attr({ src: 'img/team/' + bio.name.toLowerCase() + '.jpg' }),
         $('<h4>').html(bio.name + ' ' + bio.pronoun),
         $('<p>').html(bio['sftx-teams']).addClass('text-muted'),
-        $('<p>').html('Working on: ' + bio['tango-challenges']),
-        $('<p>').html('Secret Obsessions: ' + bio.obsessions)
+        $('<p>').html('Working on: ').addClass('bio-title'),
+        $('<p>').html(bio['tango-challenges']),
+        $('<p>').html('Secret Obsessions: ').addClass('bio-title'),
+        $('<p>').html(bio.obsessions)
       ];
       $elements.forEach(function($element){ $bioContainer.append($element); })
       $teamMemberContainer.append($bioContainer);
     });
 
     var $expectListContainer = $('#expect-list');
+    $expectListContainer.append($('<p>').html('What to Expect:'))
     texts.what_to_expect.forEach(function(item){
       var $element = $('<li>').html(item);
       $expectListContainer.append($element);

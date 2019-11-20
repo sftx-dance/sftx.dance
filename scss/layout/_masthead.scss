@@ -12,13 +12,13 @@ header.masthead {
 
   .intro-text {
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       @include serif-font;
       text-shadow:
       -1px -1px 0 #000,
@@ -30,7 +30,7 @@ header.masthead {
       font-size: 30px;
       font-weight: 700;
       line-height: 1;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       @include heading-font;
       text-shadow:
       -1px -1px 0 #000,

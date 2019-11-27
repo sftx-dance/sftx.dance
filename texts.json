@@ -3,10 +3,16 @@
   "team_members": "We hope to see you soon!",
   "contact_us": "email us at info@sftangoexchange.com",
   "member_bios": [{
+    "name": "Homer",
+    "pronoun": "(he/his)",
+    "sftx-teams": "Consultant, Program Planning",
+    "tango-challenges": "Dancing tango in the air.",
+    "obsessions": "Aerial dance, <a href='http://www.theorganictangoschool.org'>teaching and dancing tango</a>. Also, D&D."
+  }, {
     "name": "Chi",
     "pronoun": "(he/his)",
     "sftx-teams": "Venue, Program Planning, Marketing-Website",
-    "tango-challenges": "Surrrendering to the music as a leader and adding embellishements as a follower",
+    "tango-challenges": "Surrendering to the music as a leader and adding embellishements as a follower",
     "obsessions": "alt tango songs, Stand-up Comedy"
   }, {
     "name": "Stephanie",
@@ -18,7 +24,7 @@
     "name": "Geoff",
     "pronoun": "(he/his)",
     "sftx-teams": "Venue, Marketing-Website, Finance",
-    "tango-challenges": "Contributing in a productive and positive way to tango community",
+    "tango-challenges": "Contributing in small, positive ways to tango community",
     "obsessions": "Drawing"
   }, {
     "name": "Xiaomin",

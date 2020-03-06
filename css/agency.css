@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - SFTX v5.2.1 ()
- * Copyright 2013-2019 
+ * Copyright 2013-2020 
  * Licensed under MIT (https://github.com/BlackrockDigital/sftx-website/blob/master/LICENSE)
  */
 
@@ -266,6 +266,37 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 20px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+header.masthead .hero-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header.masthead .hero-btns a {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+header.masthead .hero-btns .donate-btn {
+  background: #fff;
+  color: #ff0040;
+  border: none;
+}
+
+header.masthead .hero-btns .donate-btn:hover, header.masthead .hero-btns .donate-btn:active, header.masthead .hero-btns .donate-btn:visited, header.masthead .hero-btns .donate-btn:focus, header.masthead .hero-btns .donate-btn:focus-within {
+  color: #fff;
+  background: #d90036;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 @media (min-width: 992px) {
@@ -655,4 +686,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #mailchimp #mc_embed_signup_scroll .mc-form-submit {
   margin-top: 30px;
+}
+
+#paypal_embed_donate {
+  margin-top: 30px;
+}
+
+#paypal_embed_donate input {
+  border: none;
 }

@@ -40,6 +40,32 @@ header.masthead {
       1px 1px 0 #000;
     }
   }
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+    .donate-btn {
+      background: $white;
+      color: $primary;
+      border: none;
+
+      &:hover,
+      &:active,
+      &:visited,
+      &:focus,
+      &:focus-within {
+        color: $white;
+        background: $primary-dark;
+        box-shadow: none !important;
+      }
+    }
+  }
 }
 
 @media(min-width: 992px) {

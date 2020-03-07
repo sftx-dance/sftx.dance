@@ -693,3 +693,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #paypal_embed_donate input {
   border: none;
 }
+
+.thank-you header.masthead {
+  background-image: none;
+}
+
+.thank-you header.masthead .intro-lead-in {
+  color: black;
+  text-shadow: none;
+}

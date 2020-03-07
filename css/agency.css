@@ -27,7 +27,7 @@ input {
 }
 
 .text-primary {
-  color: #ff0040 !important;
+  color: #ff0040;
 }
 
 h1,
@@ -99,6 +99,11 @@ img::-moz-selection {
   font-weight: 700;
 }
 
+.btn:focus, .btn:focus-within {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .btn-xl {
   font-size: 18px;
   padding: 10px 20px;
@@ -111,14 +116,9 @@ img::-moz-selection {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #d90036 !important;
-  border-color: #d90036 !important;
+  background-color: #d90036;
+  border-color: #d90036;
   color: white;
-}
-
-.btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
 @media (min-width: 768px) {
@@ -292,11 +292,9 @@ header.masthead .hero-btns .donate-btn {
   border: none;
 }
 
-header.masthead .hero-btns .donate-btn:hover, header.masthead .hero-btns .donate-btn:active, header.masthead .hero-btns .donate-btn:visited, header.masthead .hero-btns .donate-btn:focus, header.masthead .hero-btns .donate-btn:focus-within {
+header.masthead .hero-btns .donate-btn:hover {
   color: #fff;
   background: #d90036;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
 }
 
 @media (min-width: 992px) {

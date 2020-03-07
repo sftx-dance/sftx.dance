@@ -55,14 +55,9 @@ header.masthead {
       color: $primary;
       border: none;
 
-      &:hover,
-      &:active,
-      &:visited,
-      &:focus,
-      &:focus-within {
+      &:hover {
         color: $white;
-        background: $primary-dark;
-        box-shadow: none !important;
+        background: darken($primary, 7.5%);
       }
     }
   }

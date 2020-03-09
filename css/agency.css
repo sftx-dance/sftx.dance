@@ -603,6 +603,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #ff0040;
 }
 
+ul.social-buttons li a .fa-instagram {
+  font-size: 24px;
+}
+
 #mailchimp #mc_embed_signup {
   max-width: 600px;
   margin: 30px auto 0;

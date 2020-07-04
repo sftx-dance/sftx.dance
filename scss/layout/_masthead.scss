@@ -38,6 +38,14 @@ header.masthead {
       1px -1px 0 #000,
       -1px 1px 0 #000,
       1px 1px 0 #000;
+
+      span {
+        color: #FFA07A;
+      }
+    }
+    .covid {
+      background-color: rgba(100, 100, 100, 0.8);
+      margin-bottom: 20px;
     }
   }
   .hero-btns {
